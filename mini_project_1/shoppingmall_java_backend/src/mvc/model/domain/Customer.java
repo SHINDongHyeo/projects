@@ -1,9 +1,7 @@
-package mvc.model.domain;
+	package mvc.model.domain;
 
 import java.util.Objects;
-
 import org.json.simple.JSONObject;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,9 +15,7 @@ public class Customer {
 	private String phoneNumber;
 	private String point;
 	
-	
-
-    @Override
+	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		

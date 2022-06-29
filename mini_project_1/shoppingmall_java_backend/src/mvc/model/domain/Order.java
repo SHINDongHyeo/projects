@@ -2,10 +2,8 @@ package mvc.model.domain;
 
 import java.util.ArrayList;
 import java.util.Objects;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -21,8 +19,7 @@ public class Order {
 	private Customer customer;
 	private ArrayList<Product> productList;
 	
-	
-    @Override
+	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		
